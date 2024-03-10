@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        text-align: center;
+      }
+
+      form {
+        display: inline-block;
+        text-align: left;
+      }
+
+      fieldset {
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Biodata</legend>
+        <div>
+          <table>
+            <tr>
+              <td>
+                <label>Nama mahasiswa </label>
+              </td>
+              <td>
+                :
+                <input
+                  type="text"
+                  name="Nama mahasiswa"
+                  size="20"
+                  required
+                  placeholder="Nama lengkap anda"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label>Nomer induk mahasiswa </label>
+              </td>
+              <td>
+                :
+                <input
+                  type="number"
+                  name="NIM"
+                  size="20"
+                  required
+                  placeholder="NIM Anda(hanya angka)"
+                  max="9999999999"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label>Alamat mahasiswa </label>
+              </td>
+              <td>
+                :
+                <textarea
+                  name="Alamat mahasiswa"
+                  cols="30"
+                  rows="5"
+                  required
+                  placeholder="Alamat anda"
+                ></textarea>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label>Tanggal lahir </label>
+              </td>
+              <td>
+                : <input type="date" name="tanggal_lahir" size="20" required />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label>Jenis kelamin </label>
+              </td>
+              <td>
+                :
+                <input
+                  type="radio"
+                  name="radio"
+                  value="radio"
+                  id="radio1"
+                /><label for="Laki-Laki">Laki-Laki</label>
+                <input
+                  type="radio"
+                  name="radio"
+                  value="radio"
+                  id="radio2"
+                /><label for="Perempuan">Perempuan</label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label>Upload foto </label>
+              </td>
+              <td>: <input type="file" name="file" required /></td>
+            </tr>
+
+            <tr>
+              <td>
+                <label>URL Website </label>
+              </td>
+              <td>
+                :
+                <input
+                  type="url"
+                  name="Website"
+                  size="20"
+                  placeholder="URL Website Anda"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label>Perguruan tinggi </label>
+              </td>
+              <td>
+                :
+                <input
+                  type="text"
+                  name="Jenjang"
+                  size="20"
+                  required
+                  placeholder="Wajib diisi"
+                />
+              </td>
+            </tr>
+          </table>
+        </div>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Info akun</legend>
+        <table>
+          <tr>
+            <td>
+              <label>Email </label>
+            </td>
+            <td>
+              :
+              <input
+                type="email"
+                name="email"
+                size="20"
+                required
+                placeholder="Email Anda"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label>Username </label>
+            </td>
+            <td>
+              :
+              <input
+                type="text"
+                name="email"
+                size="20"
+                required
+                placeholder="Wajib diisi"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Password </label>
+            </td>
+            <td>
+              :
+              <input
+                type="password"
+                name="password"
+                size="20"
+                required
+                placeholder="Wajib diisi"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Ulangi Password </label>
+            </td>
+            <td>
+              :
+              <input
+                type="password"
+                name="password lagi"
+                size="20"
+                required
+                placeholder="Wajib diisi"
+              />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Info Akun</legend>
+        <input
+          type="checkbox"
+          name="checkbox1"
+          value="checkbox1"
+          id="checkbox1"
+        /><label for="checkbox1">HTML</label>
+        <input
+          type="checkbox"
+          name="checkbox1"
+          value="checkbox2"
+          id="checkbox2"
+        /><label for="checkbox2">CSS</label>
+        <input
+          type="checkbox"
+          name="checkbox1"
+          value="checkbox3"
+          id="checkbox3"
+        /><label for="checkbox3">Javascript</label>
+        <input
+          type="checkbox"
+          name="checkbox1"
+          value="checkbox4"
+          id="checkbox4"
+        /><label for="checkbox4">PHP</label>
+        <input
+          type="checkbox"
+          name="checkbox1"
+          value="checkbox5"
+          id="checkbox5"
+        /><label for="checkbox5">MySQL</label>
+        <input
+          type="checkbox"
+          name="checkbox1"
+          value="checkbox6"
+          id="checkbox6"
+        /><label for="checkbox6">Laravel</label>
+        <input
+          type="checkbox"
+          name="checkbox1"
+          value="checkbox7"
+          id="checkbox7"
+        /><label for="checkbox7">React Naive</label>
+      </fieldset>
+      
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Simpan" />
+      <input type="button" value="Button" onclick="" />
+    
+    </form>
+    <br />
+    <div>
+
+    </div>
+  </body>
+</html>
