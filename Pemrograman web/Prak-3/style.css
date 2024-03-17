@@ -1,0 +1,45 @@
+nav {
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+nav li a {
+    background-color: gainsboro;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    border-bottom: 5px solid gainsboro;
+}
+
+nav li a:hover {
+    background-color: rgb(92, 92, 92); 
+    color: white;
+    border-bottom: 5px solid rgb(59, 184, 184); 
+}
+
+    nav li a.active {
+    background-color: rgb(59, 184, 184) ;
+    color: white; 
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+nav li a.active:hover {
+    background-color: rgb(92, 92, 92); 
+    color: white; 
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
